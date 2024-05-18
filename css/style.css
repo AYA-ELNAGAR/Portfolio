@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aside-part{
+    position: fixed;
+    /* direction  */
+height: 100vh;
+width: 22%;
+
+}
+.as-cont{
+    padding: 20px 20px 0px 20px;
+}
+.right-part{
+background-color: #eee;
+width: 78%;
+
+float: right;
+}
+.container{
+ 
+    width: 97%;
+   
+    margin: 20px auto;
+}
+.non-container{
+    width: 100%; 
+    margin-top: 60px;
+}
+.img-container{
+    width: 130px;
+    margin-bottom: 25px;
+}
+.img-container img{
+width: 100%;
+border-radius: 7px;
+
+}
+.aside-part h2{
+    margin-bottom: 25px;
+    font-weight: 510;
+}
+.aside-part p{
+    color: #888;
+    font-weight: 100;
+}
+.aside-part ul{
+    margin-top: 10px;
+list-style-type:none ;
+padding: 0px;
+width: 100%;
+/* background-color: grey; */
+}
+
+.aside-part .ul1 li div{
+ 
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.aside-part ul li a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+display: block;
+text-transform: uppercase;
+
+}
+.aside-part ul li a .iq{
+    margin-right: 10px;
+}
+.aside-part ul li a.active{
+    color:  #009688;;
+}
+.aside-part ul .iqs .siq{
+    font-size: 20px;
+}
+.aside-part ul .iqs div{
+    display: inline-block;
+}
+.aside-part .ul1 li div:hover{
+    background-color:#eee;
+
+}
+.aside-part .ul2 li{
+    display: inline-block;
+}
+.aside-part .ul2 {
+    padding-left: 20px;
+}
+.aside-part .siq:hover  {
+    opacity: .5;
+}
+.right-part .container .head{
+    padding-bottom: 25px;
+}
+.right-part .container .head h1{
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 10px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+nav ul li.active{
+    background-color: black;
+}
+nav ul li.active a{
+    color: white;
+}
+nav ul li:hover , nav ul li:hover a{
+background-color: #ccc1c1;
+color: black;
+}
+nav{
+    padding-bottom: 20px;
+    border-bottom: solid 6px #ccc1c1;
+}
+.clear{
+    clear: both;
+}
+ .cards{
+     padding-top: 20px;
+     margin-bottom: 20px;
+ }
+ .cards .item{
+     width: calc(97% / 3);
+     background-color: white;
+     margin-bottom: 20px;
+ }
+ .cards .item .img-content {
+     width: 100%;
+   
+ }
+ .cards .item .img-content img{
+    width: 100%;
+}
+.cards .item .text-content{
+    padding: 10px;
+}
+.cards .item .text-content h4{
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+ p{
+
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.cards .item .img-content img:hover{
+    opacity: .6;
+}
+.slide ul {
+    list-style-type:none ;
+}
+.slide{
+ text-align: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.slide ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.slide ul li.active{
+    background-color: black;
+    color: white;
+}
+.slide ul li:hover{
+    background-color: black;
+    color: white;
+}
+.non{
+    width: 100%;
+  
+margin-top: 20px;
+margin-bottom: 20px;
+
+  
+}
+.non div{
+    width: calc(98% /2);
+}
+.non div img{
+    width: 100%;
+  
+}
+.about h3{
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.tec-skils{
+    padding-top: 20px;
+}
+.tec-skils h3{
+    font-weight: 500;
+}
+.progress-container{
+    margin-top: 20px;
+    
+}
+.progress-pare{
+    background-color: rgb(189, 189, 189);
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.progress-pare .progress-content{
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+   
+ line-height: 30px;
+ color: white;
+    background-color: #616161;
+}
+.progress-pare .progress-content.n1{
+    width: 95%;
+}
+.progress-pare .progress-content.n2{
+    width: 85%;
+}
+.progress-pare .progress-content.n3{
+    width: 80%;
+}
+.tec-skils button{
+    background-color: #616161;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.tec-skils button:hover{
+    opacity: .5;
+}
+.charge{
+ 
+    width: 100%;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.charge .card-item{
+  width: calc(97% /3);
+text-align: center;
+opacity: .5;
+border-right: 1px solid #b9b1b1;
+
+border-left: 1px solid #b9b1b1;
+}
+.charge .card-item:hover{
+    opacity: 1;
+}
+.charge .card-item ul{
+    list-style-type: none;
+  
+    padding-left: 0px;
+}
+.charge .card-item ul li{
+border-bottom: 1px solid #b9b1b1;
+padding-top: 20px;
+font-weight: bold;
+padding-bottom: 20px;
+display: block;
+}
+.charge .card-item ul .bi p{
+    font-size: 33px;
+}
+.charge .card-item .header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+.charge .card-item .card-content{
+    background-color: white;
+}
+.charge .c1 .header ,.charge .c3 .header{
+    background-color: black;
+}
+.charge .c2 .header{
+    background-color: #009688;
+}
+.charge .card-item .card-content span{
+    display: block;
+    color: #616161;
+}
+.charge .card-item .card-content button{
+    padding: 12px 25px;
+    background-color: #009688;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.charge .card-item .card-content button:hover{
+    background-color: black;
+}
+.How{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.charge .card-item .card-content ul li.btn{
+    background-color: #eee;
+}
+#Contact .content-bar{
+    justify-content: unset;
+    width: 100%;
+   padding-bottom: 40px;
+   border-bottom: 1px solid rgb(236, 236, 236);
+}
+#Contact{
+    background-color: #9e9e9e;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#Contact h3{
+font-weight: bold;
+padding-bottom: 40px;
+}
+#Contact .sec{
+width: calc(100% /3);
+padding-top: 15px ;
+padding-bottom: 5px ;
+
+
+text-align: center;
+color: white
+}
+#Contact  .sec1, #Contact  .sec3{
+    background-color: #616161;
+}
+#Contact  .sec2{
+    background-color: #009688;
+}
+form {
+    margin-top: 20px;
+}
+form .in-contin{
+    width: 100%;
+    margin-bottom: 20px;
+}
+form .in-contin input ,form .in-contin label{
+    display: block;
+    width: 100%;
+}
+form .in-contin label{
+    font-weight: bold;
+}
+form .in-contin input{
+    padding:10px 0px;
+    margin-top: 5px;
+    border: none;
+}
+ form .sup{
+     background-color: black;
+     color: white;
+     border: none;
+     font-size: 17px;
+     padding:10px 20px
+ }
+ #footer{
+     background-color: #616161;
+     color: white;
+   
+ }
+ #footer .container{
+     margin-top: 0px;
+     padding-top: 40px;
+     margin-bottom: 0px;
+ }
+ #footer a{
+     color: white;
+ }
+ .footer-item{
+     width:calc(98% /3);
+     padding-bottom: 20px;
+ }
+ .footer-item h3{
+     font-size: 25px;
+     font-weight: lighter;
+ }
+ 
+ .footer-item ul{
+     list-style-type: none;
+     padding-left: 0px;
+     margin-left: 0px;
+    
+ }
+ .flo{
+    float: left;
+    margin-left: 10px;
+ }
+ .footer-item ul li{
+     display: block;
+     padding: 10px 3px;
+ }
+ .flo img{
+     width: 50px;
+ }
+ .flo h6{
+     font-size: 18px;
+margin-bottom: 5px;
+ }
+ .footer-item ul li:hover{
+     background-color: rgba(255, 255, 255, 0.411);
+ }
+ .marg {
+    margin-top: 30px; 
+ }
+ .spans span{
+padding:3px 5px;
+background-color: #888;
+font-size: 12px;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+color: black;
+ }
+ .spans span.active{
+     background-color: black;
+     color: white;
+ }
+ footer{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
+ footer a{
+     color: white;
+ }
